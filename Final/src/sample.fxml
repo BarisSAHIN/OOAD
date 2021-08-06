@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="outerPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <top>
+      <Pane prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: BLACK;" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="popInput" layoutX="104.0" layoutY="14.0" prefHeight="25.0" prefWidth="193.0" text="Insert count of random Individuals" />
+            <Button fx:id="addOne" disable="true" layoutX="21.0" layoutY="50.0" mnemonicParsing="false" onAction="#AddOne" prefHeight="25.0" prefWidth="75.0" text="Add One" />
+            <TextField fx:id="SInput" layoutX="104.0" layoutY="50.0" prefHeight="25.0" prefWidth="62.0" text="Speed(S)" />
+            <TextField fx:id="CInput" layoutX="176.0" layoutY="50.0" prefHeight="25.0" prefWidth="122.0" text="Social Interaction(C)" />
+            <RadioButton fx:id="InfectedInput" layoutX="455.0" layoutY="54.0" mnemonicParsing="false" text="Infected" />
+            <RadioButton fx:id="MInput" layoutX="534.0" layoutY="54.0" mnemonicParsing="false" text="Masked" />
+            <TextField fx:id="DInput" layoutX="314.0" layoutY="50.0" prefHeight="25.0" prefWidth="122.0" text="Social Distance(D)" />
+            <Button fx:id="addMany" disable="true" layoutX="20.0" layoutY="14.0" mnemonicParsing="false" onAction="#AddMany" prefHeight="25.0" prefWidth="76.0" text="Add Many" />
+            <TextField fx:id="errorPop" layoutX="596.0" layoutY="27.0" prefHeight="25.0" prefWidth="193.0" style="-fx-background-color: #F9F9F9; -fx-border-color: RED;" visible="false" />
+            <Button fx:id="setZ" layoutX="1237.0" layoutY="11.0" mnemonicParsing="false" onAction="#SetZ" text="Set Letality" />
+            <TextField fx:id="ZInput" layoutX="1232.0" layoutY="46.0" prefHeight="25.0" prefWidth="83.0" text="Letality(Z)" />
+            <Button fx:id="setR" layoutX="1341.0" layoutY="11.0" mnemonicParsing="false" onAction="#SetR" text="Set Spreading Rate" />
+            <TextField fx:id="RInput" layoutX="1336.0" layoutY="46.0" prefHeight="25.0" prefWidth="124.0" text="Spreading Rate(R)" />
+            <Label layoutX="1634.0" layoutY="12.0" style="-fx-font-size: 20;" text="Mask      : " />
+            <Label fx:id="maskPersantage" layoutX="1753.0" layoutY="10.0" style="-fx-font-size: 20;" text="MASK" />
+            <Label layoutX="1634.0" layoutY="48.0" prefHeight="30.0" prefWidth="88.0" style="-fx-font-size: 20;" text="Distance :" />
+            <Label fx:id="avgD" layoutX="1753.0" layoutY="44.0" style="-fx-font-size: 20;" text="avg Distance" />
+         </children>
+      </Pane>
+   </top>
+   <left>
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #CCCCCC; -fx-border-color: BLACK;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="45.0" layoutY="37.0" style="-fx-font-size: 20;" text="Time Passed" />
+            <Label fx:id="timeNow" alignment="CENTER" layoutX="1.0" layoutY="80.0" prefHeight="30.0" prefWidth="198.0" style="-fx-font-size: 20;" text="TIME_NOW" />
+            <Label alignment="CENTER" layoutX="1.0" layoutY="129.0" prefHeight="30.0" prefWidth="200.0" style="-fx-font-size: 20;" text="Population" />
+            <Label fx:id="popCount" alignment="CENTER" layoutX="1.0" layoutY="172.0" prefHeight="30.0" prefWidth="198.0" style="-fx-font-size: 20;" text="POPULATION_COUNT" />
+            <Label alignment="CENTER" layoutY="227.0" prefHeight="30.0" prefWidth="200.0" style="-fx-font-size: 20;" text="Infected" />
+            <Label fx:id="infectedCount" alignment="CENTER" layoutY="270.0" prefHeight="30.0" prefWidth="198.0" style="-fx-font-size: 20;" text="INFECTED_COUNT" />
+            <Label alignment="CENTER" layoutY="416.0" prefHeight="30.0" prefWidth="200.0" style="-fx-font-size: 20;" text="Dead" />
+            <Label fx:id="deadCount" alignment="CENTER" layoutY="459.0" prefHeight="30.0" prefWidth="198.0" style="-fx-font-size: 20;" text="DEAD_COUNT" />
+            <Label alignment="CENTER" layoutX="-1.0" layoutY="326.0" prefHeight="30.0" prefWidth="200.0" style="-fx-font-size: 20;" text="Collided" />
+            <Label fx:id="collidedCount" alignment="CENTER" layoutX="-1.0" layoutY="369.0" prefHeight="30.0" prefWidth="198.0" style="-fx-font-size: 20;" text="COLLIDED_COUNT" />
+         </children>
+      </Pane>
+   </left>
+   <bottom>
+      <Pane prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: BLACK;" BorderPane.alignment="CENTER">
+         <children>
+            <ProgressBar fx:id="progressBar" layoutX="43.0" layoutY="57.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="18.0" prefWidth="1168.0" progress="0.0" />
+            <Label layoutX="541.0" layoutY="20.0" style="-fx-font-size: 20;" text="Hospital Occupancy" />
+            <Label layoutX="43.0" layoutY="20.0" style="-fx-font-size: 20;" text="Occupied:" />
+            <Label layoutX="1082.0" layoutY="20.0" style="-fx-font-size: 20;" text="Empty:" />
+            <Label fx:id="occupied" layoutX="144.0" layoutY="20.0" style="-fx-font-size: 20;" text="Occupied" />
+            <Label fx:id="empty" layoutX="1155.0" layoutY="20.0" style="-fx-font-size: 20;" text="Empty" />
+            <Label layoutX="1770.0" layoutY="27.0" text="Dead" textAlignment="CENTER" textFill="#c91717">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="1512.0" layoutY="26.0" text="Population" textAlignment="CENTER" textFill="#15ff00">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="1645.0" layoutY="27.0" text="Infected" textAlignment="CENTER" textFill="#f2b500">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </bottom>
+   <right>
+      <Pane prefHeight="600.0" prefWidth="720.0" style="-fx-background-color: #CCCCCC; -fx-border-color: BLACK;" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="startButton" disable="true" layoutX="15.0" layoutY="243.0" mnemonicParsing="false" onAction="#SimStart" prefWidth="70.0" text="Start" />
+            <Button fx:id="pauseButton" disable="true" layoutX="15.0" layoutY="288.0" mnemonicParsing="false" onAction="#SimPause" prefWidth="70.0" text="Pause" />
+            <LineChart fx:id="lineChart" layoutX="100.0" prefHeight="600.0" prefWidth="620.0" title="Infection">
+              <xAxis>
+                <CategoryAxis side="BOTTOM" />
+              </xAxis>
+              <yAxis>
+                <NumberAxis side="LEFT" />
+              </yAxis>
+            </LineChart>
+         </children>
+      </Pane>
+   </right>
+   <center>
+      <Pane fx:id="mapPane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #CCFFFF;" BorderPane.alignment="CENTER">
+         <children>
+            <Canvas fx:id="mapCanvas" height="600.0" width="1000.0" />
+         </children>
+      </Pane>
+   </center>
+</BorderPane>
