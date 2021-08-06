@@ -1,0 +1,477 @@
+#################################
+Tests For Turkey Factory
+#################################
+Test Maximum Efford
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Turkey Factory Working!
+-----------------
+Producing Maximum Efford
+-----------------
+CPU attaced
+CPU & RAM: 
+	CPU Speed: 2.8GHz
+	RAM Size: 8GB
+	Core Count: 8
+
+-----------------
+Display attaced
+Display: 
+	Size: 5.5 inch
+	Bit: 32 bit
+
+-----------------
+Battery attaced
+Battery: 
+	Hours: 27h
+	Amper: 3600mAh
+	Material: Lithium-Boron
+
+-----------------
+Storage attaced
+Storage: 
+	MicroSD Support: true
+	Start Storage: 64GB
+	MAX Storage: 128GB
+
+-----------------
+Camera attaced
+Camera: 
+	Front: 12Mp
+	Rear: 8Mp
+	Zoom: X4
+
+-----------------
+Case enclosed
+Case: 
+	Size: 151x73x7.7mm
+	Dustproof: true
+	Waterproof: true
+	Waterproof range: 200cm
+	Material: Aluminum
+
+-----------------
+Maximum Efford produced!
+-----------------
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Turkey Factory Working!
+-----------------
+Producing Iflas Deluxe
+-----------------
+CPU attaced
+CPU & RAM: 
+	CPU Speed: 2.2GHz
+	RAM Size: 6GB
+	Core Count: 8
+
+-----------------
+Display attaced
+Display: 
+	Size: 5.3 inch
+	Bit: 32 bit
+
+-----------------
+Battery attaced
+Battery: 
+	Hours: 20h
+	Amper: 2800mAh
+	Material: Lithium-Boron
+
+-----------------
+Storage attaced
+Storage: 
+	MicroSD Support: true
+	Start Storage: 34GB
+	MAX Storage: 128GB
+
+-----------------
+Camera attaced
+Camera: 
+	Front: 12Mp
+	Rear: 5Mp
+	Zoom: X4
+
+-----------------
+Case enclosed
+Case: 
+	Size: 149x73x7.7mm
+	Dustproof: false
+	Waterproof: true
+	Waterproof range: 200cm
+	Material: Aluminum
+
+-----------------
+Iflas Deluxe produced!
+-----------------
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Turkey Factory Working!
+-----------------
+Producing I-I-Aman-Iflas
+-----------------
+CPU attaced
+CPU & RAM: 
+	CPU Speed: 2.2GHz
+	RAM Size: 4GB
+	Core Count: 8
+
+-----------------
+Display attaced
+Display: 
+	Size: 4.5 inch
+	Bit: 32 bit
+
+-----------------
+Battery attaced
+Battery: 
+	Hours: 16h
+	Amper: 2000mAh
+	Material: Lithium-Boron
+
+-----------------
+Storage attaced
+Storage: 
+	MicroSD Support: true
+	Start Storage: 16GB
+	MAX Storage: 128GB
+
+-----------------
+Camera attaced
+Camera: 
+	Front: 8Mp
+	Rear: 5Mp
+	Zoom: X4
+
+-----------------
+Case enclosed
+Case: 
+	Size: 143x69x7.3mm
+	Dustproof: false
+	Waterproof: true
+	Waterproof range: 200cm
+	Material: Plastic
+
+-----------------
+I-I-Aman-Iflas produced!
+-----------------
+#################################
+Tests For Turkey Factory Finished
+#################################
+
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+
+#################################
+Tests For EU Factory
+#################################
+Test Maximum Efford
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+EU Factory Working!
+-----------------
+Producing Maximum Efford
+-----------------
+CPU attaced
+CPU & RAM: 
+	CPU Speed: 2.8GHz
+	RAM Size: 8GB
+	Core Count: 4
+
+-----------------
+Display attaced
+Display: 
+	Size: 5.5 inch
+	Bit: 24 bit
+
+-----------------
+Battery attaced
+Battery: 
+	Hours: 27h
+	Amper: 3600mAh
+	Material: Lithium-Ion
+
+-----------------
+Storage attaced
+Storage: 
+	MicroSD Support: true
+	Start Storage: 64GB
+	MAX Storage: 64GB
+
+-----------------
+Camera attaced
+Camera: 
+	Front: 12Mp
+	Rear: 8Mp
+	Zoom: X3
+
+-----------------
+Case enclosed
+Case: 
+	Size: 151x73x7.7mm
+	Dustproof: true
+	Waterproof: true
+	Waterproof range: 100cm
+	Material: Aluminum
+
+-----------------
+Maximum Efford produced!
+-----------------
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+EU Factory Working!
+-----------------
+Producing Iflas Deluxe
+-----------------
+CPU attaced
+CPU & RAM: 
+	CPU Speed: 2.2GHz
+	RAM Size: 6GB
+	Core Count: 4
+
+-----------------
+Display attaced
+Display: 
+	Size: 5.3 inch
+	Bit: 24 bit
+
+-----------------
+Battery attaced
+Battery: 
+	Hours: 20h
+	Amper: 2800mAh
+	Material: Lithium-Ion
+
+-----------------
+Storage attaced
+Storage: 
+	MicroSD Support: true
+	Start Storage: 34GB
+	MAX Storage: 64GB
+
+-----------------
+Camera attaced
+Camera: 
+	Front: 12Mp
+	Rear: 5Mp
+	Zoom: X3
+
+-----------------
+Case enclosed
+Case: 
+	Size: 149x73x7.7mm
+	Dustproof: false
+	Waterproof: true
+	Waterproof range: 100cm
+	Material: Aluminum
+
+-----------------
+Iflas Deluxe produced!
+-----------------
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+EU Factory Working!
+-----------------
+Producing I-I-Aman-Iflas
+-----------------
+CPU attaced
+CPU & RAM: 
+	CPU Speed: 2.2GHz
+	RAM Size: 4GB
+	Core Count: 4
+
+-----------------
+Display attaced
+Display: 
+	Size: 4.5 inch
+	Bit: 24 bit
+
+-----------------
+Battery attaced
+Battery: 
+	Hours: 16h
+	Amper: 2000mAh
+	Material: Lithium-Ion
+
+-----------------
+Storage attaced
+Storage: 
+	MicroSD Support: true
+	Start Storage: 16GB
+	MAX Storage: 64GB
+
+-----------------
+Camera attaced
+Camera: 
+	Front: 8Mp
+	Rear: 5Mp
+	Zoom: X3
+
+-----------------
+Case enclosed
+Case: 
+	Size: 143x69x7.3mm
+	Dustproof: false
+	Waterproof: true
+	Waterproof range: 100cm
+	Material: Plastic
+
+-----------------
+I-I-Aman-Iflas produced!
+-----------------
+#################################
+Tests For EU Factory Finished
+#################################
+
+VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV
+
+#################################
+Tests For Global Factory
+#################################
+Test Maximum Efford
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Global Factory Working!
+-----------------
+Producing Maximum Efford
+-----------------
+CPU attaced
+CPU & RAM: 
+	CPU Speed: 2.8GHz
+	RAM Size: 8GB
+	Core Count: 2
+
+-----------------
+Display attaced
+Display: 
+	Size: 5.5 inch
+	Bit: 24 bit
+
+-----------------
+Battery attaced
+Battery: 
+	Hours: 27h
+	Amper: 3600mAh
+	Material: Lithium-Cobalt
+
+-----------------
+Storage attaced
+Storage: 
+	MicroSD Support: true
+	Start Storage: 64GB
+	MAX Storage: 32GB
+
+-----------------
+Camera attaced
+Camera: 
+	Front: 12Mp
+	Rear: 8Mp
+	Zoom: X2
+
+-----------------
+Case enclosed
+Case: 
+	Size: 151x73x7.7mm
+	Dustproof: true
+	Waterproof: true
+	Waterproof range: 50cm
+	Material: Aluminum
+
+-----------------
+Maximum Efford produced!
+-----------------
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Global Factory Working!
+-----------------
+Producing Iflas Deluxe
+-----------------
+CPU attaced
+CPU & RAM: 
+	CPU Speed: 2.2GHz
+	RAM Size: 6GB
+	Core Count: 2
+
+-----------------
+Display attaced
+Display: 
+	Size: 5.3 inch
+	Bit: 24 bit
+
+-----------------
+Battery attaced
+Battery: 
+	Hours: 20h
+	Amper: 2800mAh
+	Material: Lithium-Cobalt
+
+-----------------
+Storage attaced
+Storage: 
+	MicroSD Support: true
+	Start Storage: 34GB
+	MAX Storage: 32GB
+
+-----------------
+Camera attaced
+Camera: 
+	Front: 12Mp
+	Rear: 5Mp
+	Zoom: X2
+
+-----------------
+Case enclosed
+Case: 
+	Size: 149x73x7.7mm
+	Dustproof: false
+	Waterproof: true
+	Waterproof range: 50cm
+	Material: Aluminum
+
+-----------------
+Iflas Deluxe produced!
+-----------------
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Global Factory Working!
+-----------------
+Producing I-I-Aman-Iflas
+-----------------
+CPU attaced
+CPU & RAM: 
+	CPU Speed: 2.2GHz
+	RAM Size: 4GB
+	Core Count: 2
+
+-----------------
+Display attaced
+Display: 
+	Size: 4.5 inch
+	Bit: 24 bit
+
+-----------------
+Battery attaced
+Battery: 
+	Hours: 16h
+	Amper: 2000mAh
+	Material: Lithium-Cobalt
+
+-----------------
+Storage attaced
+Storage: 
+	MicroSD Support: true
+	Start Storage: 16GB
+	MAX Storage: 32GB
+
+-----------------
+Camera attaced
+Camera: 
+	Front: 8Mp
+	Rear: 5Mp
+	Zoom: X2
+
+-----------------
+Case enclosed
+Case: 
+	Size: 143x69x7.3mm
+	Dustproof: false
+	Waterproof: true
+	Waterproof range: 50cm
+	Material: Plastic
+
+-----------------
+I-I-Aman-Iflas produced!
+-----------------
+#################################
+Tests For Global Factory Finished
+#################################

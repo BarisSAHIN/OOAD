@@ -1,0 +1,69 @@
+Start Of DB:
+Table name: 0. table
+Table name: 1. table
+Table name: 2. table
+//////////////////////
+Select Executed
+Command Successfully applied DB state:
+Table name: 0. table
+Table name: 1. table
+Table name: 2. table
+<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Select Executed
+Command Successfully applied DB state:
+Table name: 0. table
+Table name: 1. table
+Table name: 2. table
+<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Alter Executed
+Command Successfully applied DB state:
+Table name: 1. table
+Table name: 2. table
+<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Alter Executed
+Command Successfully applied DB state:
+Table name: 2. table
+<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Alter Executed
+Command Successfully applied DB state:
+There is no table in DB
+<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Update Executed
+Wrong code rolling back
+#####################################
+After "SELECT","SELECT","ALTER","ALTER","ALTER","UPDATE"(fail) transaction:
+Table name: 0. table
+Table name: 1. table
+Table name: 2. table
+#####################################
+Select Executed
+Command Successfully applied DB state:
+Table name: 0. table
+Table name: 1. table
+Table name: 2. table
+<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Select Executed
+Command Successfully applied DB state:
+Table name: 0. table
+Table name: 1. table
+Table name: 2. table
+<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Alter Executed
+Command Successfully applied DB state:
+Table name: 1. table
+Table name: 2. table
+<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Alter Executed
+Command Successfully applied DB state:
+Table name: 2. table
+<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Alter Executed
+Command Successfully applied DB state:
+There is no table in DB
+<<<<<<<<<<<<<<<<<<<<<<<<<<<
+Transaction Successfully applied DB state:
+There is no table in DB
+#####################################
+After "SELECT","SELECT","ALTER","ALTER","ALTER" transaction:
+There is no table in DB
+#####################################
